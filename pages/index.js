@@ -10,6 +10,8 @@ export default function Home() {
   if (!isAuthenticated) return <Login />
 
   return (
-    <MainPage />
+    <div>
+      <MainPage />
+    </div>
   )
 }
