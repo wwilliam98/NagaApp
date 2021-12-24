@@ -6,7 +6,7 @@ function Login() {
     return (
         <div>
             <p>Hi, this is my login page</p>
-            <button onClick={authenticate}>Login</button>
+            <button onClick={authenticate}>Login</button> 
         </div>
     )
 }
